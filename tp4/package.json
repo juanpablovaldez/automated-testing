@@ -1,0 +1,12 @@
+{
+  "name": "tp4-cypress",
+  "version": "1.0.0",
+  "description": "TP4 - Tests E2E con Cypress - Testeo Automatizado UNSTA",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --spec cypress/e2e/TP4_ValdezJuanPablo.cy.js"
+  },
+  "devDependencies": {
+    "cypress": "^14.3.3"
+  }
+}
